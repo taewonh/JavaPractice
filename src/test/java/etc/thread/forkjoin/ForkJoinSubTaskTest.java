@@ -1,4 +1,4 @@
-package test.java.etc.thread.forkjoinpool;
+package test.java.etc.thread.forkjoin;
 
 import java.time.LocalTime;
 import java.util.ArrayList;
@@ -12,8 +12,8 @@ import java.util.concurrent.TimeUnit;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-@DisplayName("ForkJoinPool 구현체 테스트")
-public class SubForkJoinPoolTest {
+@DisplayName("ForkJoinTask 구현체 테스트")
+public class ForkJoinSubTaskTest {
 
     @Test
     @DisplayName("반환값이 존재하지 않는 RecursiveAction Fork 테스트")
