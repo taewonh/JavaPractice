@@ -1,6 +1,5 @@
-package test.java.design_pattern.abstract_factory;
+package design_pattern.abstract_factory;
 
-import main.java.design_pattern.abstract_factory.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

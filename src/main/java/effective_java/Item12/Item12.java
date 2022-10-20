@@ -1,4 +1,4 @@
-package main.java.effective_java.Item12;
+package effective_java.Item12;
 
 public class Item12 {
 

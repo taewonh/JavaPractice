@@ -1,4 +1,4 @@
-package main.java.effective_java.Item6;
+package effective_java.Item6;
 
 import java.util.regex.Pattern;
 

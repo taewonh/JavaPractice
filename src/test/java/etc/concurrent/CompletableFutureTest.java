@@ -1,4 +1,4 @@
-package test.java.etc.concurrent;
+package etc.concurrent;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;

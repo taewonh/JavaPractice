@@ -1,4 +1,4 @@
-package main.java.effective_java.Item10.liskov;
+package effective_java.Item10.liskov;
 
 import java.util.Set;
 

@@ -1,4 +1,4 @@
-package main.java.effective_java.Item10.symmetry;
+package effective_java.Item10.symmetry;
 
 import java.awt.*;
 

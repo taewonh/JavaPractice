@@ -1,4 +1,4 @@
-package main.java.effective_java.Item7;
+package effective_java.Item7;
 
 import java.util.Map;
 import java.util.WeakHashMap;

@@ -1,4 +1,4 @@
-package test.java.etc.concurrent.forkjoin;
+package etc.concurrent.forkjoin;
 
 import java.time.LocalTime;
 import java.util.ArrayList;

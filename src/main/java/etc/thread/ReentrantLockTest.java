@@ -1,4 +1,4 @@
-package main.java.etc.thread;
+package etc.thread;
 
 import java.io.PrintStream;
 import java.time.Duration;

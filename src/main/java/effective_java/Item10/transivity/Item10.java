@@ -1,4 +1,4 @@
-package main.java.effective_java.Item10.transivity;
+package effective_java.Item10.transivity;
 
 import java.awt.*;
 
