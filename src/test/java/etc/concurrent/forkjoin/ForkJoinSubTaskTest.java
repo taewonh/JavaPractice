@@ -1,16 +1,13 @@
 package etc.concurrent.forkjoin;
 
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.ForkJoinPool;
-import java.util.concurrent.ForkJoinTask;
-import java.util.concurrent.RecursiveAction;
-import java.util.concurrent.RecursiveTask;
-import java.util.concurrent.TimeUnit;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import java.util.concurrent.*;
 
 @DisplayName("ForkJoinTask 구현체 테스트")
 public class ForkJoinSubTaskTest {
