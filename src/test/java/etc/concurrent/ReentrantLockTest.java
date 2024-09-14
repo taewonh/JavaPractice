@@ -1,4 +1,7 @@
-package etc.thread;
+package etc.concurrent;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
@@ -15,7 +18,8 @@ public class ReentrantLockTest {
     private int currentCount = 0;
     private final int sleepTime = 1000;
 
-    public static void main(String[] args) throws InterruptedException {
+    @Test
+    public void test() throws InterruptedException {
         ReentrantLockTest lockTest = new ReentrantLockTest();
         List<Callable<Void>> jobs = lockTest.generateJobs();
         ExecutorService executorService = Executors.newFixedThreadPool(16);
@@ -30,7 +34,8 @@ public class ReentrantLockTest {
         }
         LocalDateTime endTime = LocalDateTime.now();
         Duration between = Duration.between(startTime, endTime);
-        System.out.println(between.getSeconds() + "초");
+        long seconds = between.getSeconds();
+        Assertions.assertEquals(seconds, totalCount);
     }
 
     private Callable<Void> generateJob(int count) {
