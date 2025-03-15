@@ -1,33 +1,33 @@
 package com.taewon.practice.dayonetest;
 
-public class MyCalcurator {
+public class MyCalculator {
 
     private Double result;
 
-    public MyCalcurator() {
+    public MyCalculator() {
         this.result = 0.0;
     }
 
-    public MyCalcurator(Double initResult) {
+    public MyCalculator(Double initResult) {
         this.result = initResult;
     }
 
-    public MyCalcurator add(Double number) {
+    public MyCalculator add(Double number) {
         this.result += number;
         return this;
     }
 
-    public MyCalcurator minus(Double number) {
+    public MyCalculator minus(Double number) {
         this.result -= number;
         return this;
     }
 
-    public MyCalcurator multiply(Double number) {
+    public MyCalculator multiply(Double number) {
         this.result *= number;
         return this;
     }
 
-    public MyCalcurator divide(Double number) {
+    public MyCalculator divide(Double number) {
         if (number == 0.0) {
             throw new ZeroDivisionException();
         }
