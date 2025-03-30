@@ -1,4 +1,4 @@
-package com.taewon.practice.dayonetest;
+package com.taewon.practice.dayonetest.calculator;
 
 public class MyCalculator {
 

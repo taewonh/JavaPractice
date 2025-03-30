@@ -1,5 +1,6 @@
 package com.taewon.practice.dayonetest;
 
+import com.taewon.practice.dayonetest.calculator.MyCalculator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
