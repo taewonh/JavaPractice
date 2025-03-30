@@ -324,4 +324,7 @@ gradle-app.setting
 # Java heap dump
 *.hprof
 
+### local environment
+infra/local/dbdata
+
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,git,java,maven,gradle,eclipse,intellij
