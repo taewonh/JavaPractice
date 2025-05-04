@@ -1,4 +1,4 @@
-package com.taewon.practice.webflux;
+package com.taewon.practice.webflux.sample;
 
 import java.time.LocalDateTime;
 
